@@ -11,10 +11,10 @@ let Todo = mongoose.model('Todo', {
         type: Boolean,
         default: false
     },
-    completerAt: {
+    completedAt: {
         type: Number,
         default: null
     }
 });
 
-module.exports = {Todo};
+module.exports = { Todo };
